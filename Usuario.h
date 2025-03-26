@@ -15,7 +15,7 @@ private:
     string apellido2;
     bool estado;
 public:
-    Usuario(string i = "-", string n = "-", string ap = "-", bool estado = "-");
+    Usuario(string i = "-", string n = "-", string ap = "-", string ap2 = "-", bool estado = "-");
     ~Usuario();
     string getId() const;
     void setId(string id);
@@ -30,11 +30,12 @@ public:
     string toString();
     friend std::ostream & operator<<(std::ostream &os, const Usuario &obj) {
         return os
-               << "Id: " << obj.getId()
-               << ", nombre: " << obj.getNombre()
-               << ", apellido1: " << obj.getApellido1()
-               << ", apellido2: " << obj.getApellido2()
-               << ", estado: " << obj.getEstado();
+               << "\tInformacion usuario: \n"
+               << "Id: " << obj.getId() << endl
+               << "Nombre: " << obj.getNombre() << endl
+               << "Apellido 1: " << obj.getApellido1() << endl
+               << "Apellido 2: " << obj.getApellido2() << endl
+               << "Estado: " << obj.getEstado() << endl;
     }
 };
 

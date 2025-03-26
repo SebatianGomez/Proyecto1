@@ -4,7 +4,7 @@
 
 #include "Usuario.h"
 
-Usuario::Usuario(string i, string n, string ap, bool estado) : id(i), nombre(n), apellido2(ap), estado(estado) {}
+Usuario::Usuario(string i, string n, string ap, string ap2, bool estado) : id(i), nombre(n), apellido1(ap), apellido2(ap2), estado(estado) {}
 
 Usuario::~Usuario() {}
 

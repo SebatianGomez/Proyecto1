@@ -27,10 +27,8 @@ public:
             aux = aux->getSiguiente();
             do {
                 os << *aux->getDato() << endl;
-                os << "-->" << endl;
                 aux = aux->getSiguiente();
             } while (aux != nullptr);
-            os << "NULL" << endl;
         }
         return os;
     }
