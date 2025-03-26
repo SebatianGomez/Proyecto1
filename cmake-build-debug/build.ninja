@@ -73,6 +73,18 @@ build CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj: CXX_COMPILER__Proyecto_1_
   OBJECT_DIR = CMakeFiles\Proyecto_1_Progra2.dir
   OBJECT_FILE_DIR = CMakeFiles\Proyecto_1_Progra2.dir
 
+build CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.obj: CXX_COMPILER__Proyecto_1_Progra2_unscanned_Debug C$:/Universidad/1ciclo2025/Progra$ 2/Practicas-proyectos/Proyecto-1-Progra2/Revista.cpp || cmake_object_order_depends_target_Proyecto_1_Progra2
+  DEP_FILE = CMakeFiles\Proyecto_1_Progra2.dir\Revista.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Proyecto_1_Progra2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Proyecto_1_Progra2.dir
+
+build CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.obj: CXX_COMPILER__Proyecto_1_Progra2_unscanned_Debug C$:/Universidad/1ciclo2025/Progra$ 2/Practicas-proyectos/Proyecto-1-Progra2/Articulo.cpp || cmake_object_order_depends_target_Proyecto_1_Progra2
+  DEP_FILE = CMakeFiles\Proyecto_1_Progra2.dir\Articulo.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Proyecto_1_Progra2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Proyecto_1_Progra2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Proyecto_1_Progra2
@@ -81,7 +93,7 @@ build CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj: CXX_COMPILER__Proyecto_1_
 #############################################
 # Link the executable Proyecto_1_Progra2.exe
 
-build Proyecto_1_Progra2.exe: CXX_EXECUTABLE_LINKER__Proyecto_1_Progra2_Debug CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj CMakeFiles/Proyecto_1_Progra2.dir/Usuario.cpp.obj CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.obj CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj
+build Proyecto_1_Progra2.exe: CXX_EXECUTABLE_LINKER__Proyecto_1_Progra2_Debug CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj CMakeFiles/Proyecto_1_Progra2.dir/Usuario.cpp.obj CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.obj CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.obj CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Proyecto_1_Progra2.dir

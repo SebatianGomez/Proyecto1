@@ -1,13 +1,16 @@
 # ninja log v6
-48	743	7646641707151627	CMakeFiles/Proyecto_1_Progra2.dir/Usuario.cpp.obj	bc791f5506bdbae9
-35	737	7646642633617760	CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj	2d556ae19f9152e7
-738	855	7646642640647247	Proyecto_1_Progra2.exe	3a5e079513f7d515
-32	867	7646664536332646	CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.obj	d6a4634416f6771c
-20	885	7646664536208062	CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj	2d556ae19f9152e7
 27	895	7646664536287475	CMakeFiles/Proyecto_1_Progra2.dir/Usuario.cpp.obj	bc791f5506bdbae9
-38	909	7646664536390227	CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj	1c03d343604754c
-909	1105	7646664545099440	Proyecto_1_Progra2.exe	9b3745fa02a83fc5
-21	724	7646671843665288	CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.obj	d6a4634416f6771c
-15	765	7646671843606457	CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj	2d556ae19f9152e7
+47	799	7647108736096230	CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj	2d556ae19f9152e7
+45	797	7647107575697678	CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.obj	67467291db430512
+800	915	7647108743613955	Proyecto_1_Progra2.exe	eff9ca27da6442a0
 12	591	7646672139860542	CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj	1c03d343604754c
-591	721	7646672145651186	Proyecto_1_Progra2.exe	9b3745fa02a83fc5
+21	724	7646671843665288	CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.obj	d6a4634416f6771c
+36	790	7647111901135988	CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj	2d556ae19f9152e7
+44	796	7647111901212282	CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.obj	34729b94e85a71b1
+796	969	7647111908736359	Proyecto_1_Progra2.exe	9900d24b89185079
+41	778	7647112114367511	CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj	2d556ae19f9152e7
+779	911	7647112121736935	Proyecto_1_Progra2.exe	9900d24b89185079
+33	828	7647112273202197	CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj	2d556ae19f9152e7
+829	962	7647112281167316	Proyecto_1_Progra2.exe	9900d24b89185079
+39	715	7647112391569387	CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj	2d556ae19f9152e7
+716	868	7647112398343602	Proyecto_1_Progra2.exe	9900d24b89185079

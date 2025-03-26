@@ -11,4 +11,8 @@ add_executable(Proyecto_1_Progra2 main.cpp
         Material.h
         Libro.cpp
         Libro.h
+        Revista.cpp
+        Revista.h
+        Articulo.cpp
+        Articulo.h
 )
