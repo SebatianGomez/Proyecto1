@@ -15,7 +15,7 @@ private:
     string apellido2;
     bool estado;
 public:
-    Usuario(string i = "-", string n = "-", string ap = "-", bool estado = "-");
+    Usuario(string i = "-", string n = "-", string ap = "-", string ap2 = "-", bool estado = "-");
     ~Usuario();
     string getId() const;
     void setId(string id);

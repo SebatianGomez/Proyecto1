@@ -3,8 +3,7 @@
 //
 
 #include "Lista.h"
-#include "Nodo.cpp"
-
+/*
 template<class T>
 Lista<T>::Lista() {
     primero = new Nodo<T>;
@@ -66,9 +65,4 @@ string Lista<T>::mostrar() {
     }
     return ss.str();
 }
-
-
-
-
-
-
+*/

@@ -96,21 +96,133 @@ CMakeFiles/Proyecto_1_Progra2.dir/Usuario.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Progra2.dir/Usuario.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Universidad\Progra\CLionProjects\Proyecto1\Usuario.cpp -o CMakeFiles\Proyecto_1_Progra2.dir\Usuario.cpp.s
 
+CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.obj: CMakeFiles/Proyecto_1_Progra2.dir/flags.make
+CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.obj: C:/Universidad/Progra/CLionProjects/Proyecto1/Material.cpp
+CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.obj: CMakeFiles/Proyecto_1_Progra2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Universidad\Progra\CLionProjects\Proyecto1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.obj -MF CMakeFiles\Proyecto_1_Progra2.dir\Material.cpp.obj.d -o CMakeFiles\Proyecto_1_Progra2.dir\Material.cpp.obj -c C:\Universidad\Progra\CLionProjects\Proyecto1\Material.cpp
+
+CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Universidad\Progra\CLionProjects\Proyecto1\Material.cpp > CMakeFiles\Proyecto_1_Progra2.dir\Material.cpp.i
+
+CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Universidad\Progra\CLionProjects\Proyecto1\Material.cpp -o CMakeFiles\Proyecto_1_Progra2.dir\Material.cpp.s
+
+CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj: CMakeFiles/Proyecto_1_Progra2.dir/flags.make
+CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj: C:/Universidad/Progra/CLionProjects/Proyecto1/Libro.cpp
+CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj: CMakeFiles/Proyecto_1_Progra2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Universidad\Progra\CLionProjects\Proyecto1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj -MF CMakeFiles\Proyecto_1_Progra2.dir\Libro.cpp.obj.d -o CMakeFiles\Proyecto_1_Progra2.dir\Libro.cpp.obj -c C:\Universidad\Progra\CLionProjects\Proyecto1\Libro.cpp
+
+CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Universidad\Progra\CLionProjects\Proyecto1\Libro.cpp > CMakeFiles\Proyecto_1_Progra2.dir\Libro.cpp.i
+
+CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Universidad\Progra\CLionProjects\Proyecto1\Libro.cpp -o CMakeFiles\Proyecto_1_Progra2.dir\Libro.cpp.s
+
+CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.obj: CMakeFiles/Proyecto_1_Progra2.dir/flags.make
+CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.obj: C:/Universidad/Progra/CLionProjects/Proyecto1/Articulo.cpp
+CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.obj: CMakeFiles/Proyecto_1_Progra2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Universidad\Progra\CLionProjects\Proyecto1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.obj -MF CMakeFiles\Proyecto_1_Progra2.dir\Articulo.cpp.obj.d -o CMakeFiles\Proyecto_1_Progra2.dir\Articulo.cpp.obj -c C:\Universidad\Progra\CLionProjects\Proyecto1\Articulo.cpp
+
+CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Universidad\Progra\CLionProjects\Proyecto1\Articulo.cpp > CMakeFiles\Proyecto_1_Progra2.dir\Articulo.cpp.i
+
+CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Universidad\Progra\CLionProjects\Proyecto1\Articulo.cpp -o CMakeFiles\Proyecto_1_Progra2.dir\Articulo.cpp.s
+
+CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.obj: CMakeFiles/Proyecto_1_Progra2.dir/flags.make
+CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.obj: C:/Universidad/Progra/CLionProjects/Proyecto1/Revista.cpp
+CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.obj: CMakeFiles/Proyecto_1_Progra2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Universidad\Progra\CLionProjects\Proyecto1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.obj -MF CMakeFiles\Proyecto_1_Progra2.dir\Revista.cpp.obj.d -o CMakeFiles\Proyecto_1_Progra2.dir\Revista.cpp.obj -c C:\Universidad\Progra\CLionProjects\Proyecto1\Revista.cpp
+
+CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Universidad\Progra\CLionProjects\Proyecto1\Revista.cpp > CMakeFiles\Proyecto_1_Progra2.dir\Revista.cpp.i
+
+CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Universidad\Progra\CLionProjects\Proyecto1\Revista.cpp -o CMakeFiles\Proyecto_1_Progra2.dir\Revista.cpp.s
+
+CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.obj: CMakeFiles/Proyecto_1_Progra2.dir/flags.make
+CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.obj: C:/Universidad/Progra/CLionProjects/Proyecto1/Video.cpp
+CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.obj: CMakeFiles/Proyecto_1_Progra2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Universidad\Progra\CLionProjects\Proyecto1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.obj -MF CMakeFiles\Proyecto_1_Progra2.dir\Video.cpp.obj.d -o CMakeFiles\Proyecto_1_Progra2.dir\Video.cpp.obj -c C:\Universidad\Progra\CLionProjects\Proyecto1\Video.cpp
+
+CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Universidad\Progra\CLionProjects\Proyecto1\Video.cpp > CMakeFiles\Proyecto_1_Progra2.dir\Video.cpp.i
+
+CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Universidad\Progra\CLionProjects\Proyecto1\Video.cpp -o CMakeFiles\Proyecto_1_Progra2.dir\Video.cpp.s
+
+CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.obj: CMakeFiles/Proyecto_1_Progra2.dir/flags.make
+CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.obj: C:/Universidad/Progra/CLionProjects/Proyecto1/materialDigital.cpp
+CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.obj: CMakeFiles/Proyecto_1_Progra2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Universidad\Progra\CLionProjects\Proyecto1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.obj -MF CMakeFiles\Proyecto_1_Progra2.dir\materialDigital.cpp.obj.d -o CMakeFiles\Proyecto_1_Progra2.dir\materialDigital.cpp.obj -c C:\Universidad\Progra\CLionProjects\Proyecto1\materialDigital.cpp
+
+CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Universidad\Progra\CLionProjects\Proyecto1\materialDigital.cpp > CMakeFiles\Proyecto_1_Progra2.dir\materialDigital.cpp.i
+
+CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Universidad\Progra\CLionProjects\Proyecto1\materialDigital.cpp -o CMakeFiles\Proyecto_1_Progra2.dir\materialDigital.cpp.s
+
+CMakeFiles/Proyecto_1_Progra2.dir/Menu.cpp.obj: CMakeFiles/Proyecto_1_Progra2.dir/flags.make
+CMakeFiles/Proyecto_1_Progra2.dir/Menu.cpp.obj: C:/Universidad/Progra/CLionProjects/Proyecto1/Menu.cpp
+CMakeFiles/Proyecto_1_Progra2.dir/Menu.cpp.obj: CMakeFiles/Proyecto_1_Progra2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Universidad\Progra\CLionProjects\Proyecto1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto_1_Progra2.dir/Menu.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Progra2.dir/Menu.cpp.obj -MF CMakeFiles\Proyecto_1_Progra2.dir\Menu.cpp.obj.d -o CMakeFiles\Proyecto_1_Progra2.dir\Menu.cpp.obj -c C:\Universidad\Progra\CLionProjects\Proyecto1\Menu.cpp
+
+CMakeFiles/Proyecto_1_Progra2.dir/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Progra2.dir/Menu.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Universidad\Progra\CLionProjects\Proyecto1\Menu.cpp > CMakeFiles\Proyecto_1_Progra2.dir\Menu.cpp.i
+
+CMakeFiles/Proyecto_1_Progra2.dir/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Progra2.dir/Menu.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Universidad\Progra\CLionProjects\Proyecto1\Menu.cpp -o CMakeFiles\Proyecto_1_Progra2.dir\Menu.cpp.s
+
 # Object files for target Proyecto_1_Progra2
 Proyecto_1_Progra2_OBJECTS = \
 "CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj" \
-"CMakeFiles/Proyecto_1_Progra2.dir/Usuario.cpp.obj"
+"CMakeFiles/Proyecto_1_Progra2.dir/Usuario.cpp.obj" \
+"CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.obj" \
+"CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj" \
+"CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.obj" \
+"CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.obj" \
+"CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.obj" \
+"CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.obj" \
+"CMakeFiles/Proyecto_1_Progra2.dir/Menu.cpp.obj"
 
 # External object files for target Proyecto_1_Progra2
 Proyecto_1_Progra2_EXTERNAL_OBJECTS =
 
 Proyecto_1_Progra2.exe: CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj
 Proyecto_1_Progra2.exe: CMakeFiles/Proyecto_1_Progra2.dir/Usuario.cpp.obj
+Proyecto_1_Progra2.exe: CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.obj
+Proyecto_1_Progra2.exe: CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj
+Proyecto_1_Progra2.exe: CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.obj
+Proyecto_1_Progra2.exe: CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.obj
+Proyecto_1_Progra2.exe: CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.obj
+Proyecto_1_Progra2.exe: CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.obj
+Proyecto_1_Progra2.exe: CMakeFiles/Proyecto_1_Progra2.dir/Menu.cpp.obj
 Proyecto_1_Progra2.exe: CMakeFiles/Proyecto_1_Progra2.dir/build.make
 Proyecto_1_Progra2.exe: CMakeFiles/Proyecto_1_Progra2.dir/linkLibs.rsp
 Proyecto_1_Progra2.exe: CMakeFiles/Proyecto_1_Progra2.dir/objects1.rsp
 Proyecto_1_Progra2.exe: CMakeFiles/Proyecto_1_Progra2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Universidad\Progra\CLionProjects\Proyecto1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Proyecto_1_Progra2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Universidad\Progra\CLionProjects\Proyecto1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Proyecto_1_Progra2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Proyecto_1_Progra2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

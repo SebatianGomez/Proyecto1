@@ -128,6 +128,126 @@ Proyecto_1_Progra2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/build
 .PHONY : Proyecto_1_Progra2/fast
 
+Articulo.obj: Articulo.cpp.obj
+.PHONY : Articulo.obj
+
+# target to build an object file
+Articulo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.obj
+.PHONY : Articulo.cpp.obj
+
+Articulo.i: Articulo.cpp.i
+.PHONY : Articulo.i
+
+# target to preprocess a source file
+Articulo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.i
+.PHONY : Articulo.cpp.i
+
+Articulo.s: Articulo.cpp.s
+.PHONY : Articulo.s
+
+# target to generate assembly for a file
+Articulo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.s
+.PHONY : Articulo.cpp.s
+
+Libro.obj: Libro.cpp.obj
+.PHONY : Libro.obj
+
+# target to build an object file
+Libro.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj
+.PHONY : Libro.cpp.obj
+
+Libro.i: Libro.cpp.i
+.PHONY : Libro.i
+
+# target to preprocess a source file
+Libro.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.i
+.PHONY : Libro.cpp.i
+
+Libro.s: Libro.cpp.s
+.PHONY : Libro.s
+
+# target to generate assembly for a file
+Libro.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.s
+.PHONY : Libro.cpp.s
+
+Material.obj: Material.cpp.obj
+.PHONY : Material.obj
+
+# target to build an object file
+Material.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.obj
+.PHONY : Material.cpp.obj
+
+Material.i: Material.cpp.i
+.PHONY : Material.i
+
+# target to preprocess a source file
+Material.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.i
+.PHONY : Material.cpp.i
+
+Material.s: Material.cpp.s
+.PHONY : Material.s
+
+# target to generate assembly for a file
+Material.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.s
+.PHONY : Material.cpp.s
+
+Menu.obj: Menu.cpp.obj
+.PHONY : Menu.obj
+
+# target to build an object file
+Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Menu.cpp.obj
+.PHONY : Menu.cpp.obj
+
+Menu.i: Menu.cpp.i
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
+Revista.obj: Revista.cpp.obj
+.PHONY : Revista.obj
+
+# target to build an object file
+Revista.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.obj
+.PHONY : Revista.cpp.obj
+
+Revista.i: Revista.cpp.i
+.PHONY : Revista.i
+
+# target to preprocess a source file
+Revista.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.i
+.PHONY : Revista.cpp.i
+
+Revista.s: Revista.cpp.s
+.PHONY : Revista.s
+
+# target to generate assembly for a file
+Revista.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.s
+.PHONY : Revista.cpp.s
+
 Usuario.obj: Usuario.cpp.obj
 .PHONY : Usuario.obj
 
@@ -151,6 +271,30 @@ Usuario.s: Usuario.cpp.s
 Usuario.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Usuario.cpp.s
 .PHONY : Usuario.cpp.s
+
+Video.obj: Video.cpp.obj
+.PHONY : Video.obj
+
+# target to build an object file
+Video.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.obj
+.PHONY : Video.cpp.obj
+
+Video.i: Video.cpp.i
+.PHONY : Video.i
+
+# target to preprocess a source file
+Video.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.i
+.PHONY : Video.cpp.i
+
+Video.s: Video.cpp.s
+.PHONY : Video.s
+
+# target to generate assembly for a file
+Video.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.s
+.PHONY : Video.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -176,6 +320,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+materialDigital.obj: materialDigital.cpp.obj
+.PHONY : materialDigital.obj
+
+# target to build an object file
+materialDigital.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.obj
+.PHONY : materialDigital.cpp.obj
+
+materialDigital.i: materialDigital.cpp.i
+.PHONY : materialDigital.i
+
+# target to preprocess a source file
+materialDigital.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.i
+.PHONY : materialDigital.cpp.i
+
+materialDigital.s: materialDigital.cpp.s
+.PHONY : materialDigital.s
+
+# target to generate assembly for a file
+materialDigital.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1_Progra2.dir\build.make CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.s
+.PHONY : materialDigital.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +353,33 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Proyecto_1_Progra2
+	@echo ... Articulo.obj
+	@echo ... Articulo.i
+	@echo ... Articulo.s
+	@echo ... Libro.obj
+	@echo ... Libro.i
+	@echo ... Libro.s
+	@echo ... Material.obj
+	@echo ... Material.i
+	@echo ... Material.s
+	@echo ... Menu.obj
+	@echo ... Menu.i
+	@echo ... Menu.s
+	@echo ... Revista.obj
+	@echo ... Revista.i
+	@echo ... Revista.s
 	@echo ... Usuario.obj
 	@echo ... Usuario.i
 	@echo ... Usuario.s
+	@echo ... Video.obj
+	@echo ... Video.i
+	@echo ... Video.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... materialDigital.obj
+	@echo ... materialDigital.i
+	@echo ... materialDigital.s
 .PHONY : help
 
 
