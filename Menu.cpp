@@ -201,7 +201,7 @@ void Menu::reporteMaterialPrestamosPorMaterial() {
 
 
 void Menu::ReportePrestamosUsuarios() {
-    system("CLS");
+    cout <<"\n\n------------------------------------------------------------------------------------------------"<<endl;
     cout << "Generar reporte de préstamos por usuario..." << endl;
     cout << "Muestra un historial de préstamos específicos por cada usuario." << endl;
     cout << "\nPresione Enter para volver al menu...";
