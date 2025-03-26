@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Universidad/1ciclo2025/Progra 2/Practicas-proyectos/Proyecto-1-Progra2/cmake-build-debug",
-		"source" : "C:/Universidad/1ciclo2025/Progra 2/Practicas-proyectos/Proyecto-1-Progra2"
+		"build" : "C:/Universidad/Progra/CLionProjects/Proyecto1/cmake-build-debug",
+		"source" : "C:/Universidad/Progra/CLionProjects/Proyecto1"
 	},
 	"version" : 
 	{

@@ -1,3 +1,3 @@
-C:/Universidad/1ciclo2025/Progra 2/Practicas-proyectos/Proyecto-1-Progra2/cmake-build-debug/CMakeFiles/Proyecto_1_Progra2.dir
-C:/Universidad/1ciclo2025/Progra 2/Practicas-proyectos/Proyecto-1-Progra2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Universidad/1ciclo2025/Progra 2/Practicas-proyectos/Proyecto-1-Progra2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Universidad/Progra/CLionProjects/Proyecto1/cmake-build-debug/CMakeFiles/Proyecto_1_Progra2.dir
+C:/Universidad/Progra/CLionProjects/Proyecto1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Universidad/Progra/CLionProjects/Proyecto1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
