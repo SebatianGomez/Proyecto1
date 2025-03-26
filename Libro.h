@@ -2,24 +2,16 @@
 // Created by sebas on 25/3/2025.
 //
 
-#ifndef MATERIAL_H
-#define MATERIAL_H
+#ifndef LIBRO_H
+#define LIBRO_H
 
-#include <ostream>
-
+#include "Material.h"
 #include "Utilities.h"
 
-class Material {
-private:
-    string numeroClasificacion;
-    string numeroCatalogo;
-    string titulo;
-    string autor;
-    string palabrasClave;
-    string estadoMaterial;
+class Libro : public Material {
 public:
-    Material(string nC = "-", string nCat = "-", string t = "-", string a = "-", string pC = "-", string eM = "-");
-    virtual ~Material();
+    Libro(string nC, string nCat, string t, string a, string pC, string eM);
+    virtual ~Libro();
     virtual string getNumeroClasificacion() const;
     void setNumeroClasificacion(string numeroClasificacion);
     virtual string getNumeroCatalogo() const;
@@ -32,11 +24,10 @@ public:
     void setPalabrasClave(string palabrasClave);
     virtual string getEstadoMaterial() const;
     void setEstadoMaterial(string estadoMaterial);
-    virtual string getTipoMaterial() const = 0;
-    virtual string mostrar() const = 0;
-    friend std::ostream & operator<<(std::ostream &os, const Material &obj);
+    string getTipoMaterial() const;
+    virtual string mostrar() const override;
 };
 
 
 
-#endif //MATERIAL_H
+#endif //LIBRO_H
