@@ -6,22 +6,20 @@
 
 void Menu::mostrarMenu() {
     int opcion;
-do {
-    cout<<"\n\n------------------------Bienvenidos Al Menu Principal De La Biblioteca-------------------------"<<endl;
-    cout<<"1. Inclusion de datos de materiales (libros, revistas, articulos, videos, material digital)"<<endl;
-    cout<<"2. Modificacion de datos de materiales"<<endl;
-    cout<<"3. Inclusion de usuarios"<<endl;
-    cout<<"4. Modificacion de datos de usuarios"<<endl;
-    cout<<"5. Registro de solicitudes de prestamo y devoluciones"<<endl;
-    cout<<"6. Reporte de inventario de materiales"<<endl;
-    cout<<"7. Reporte de usuarios"<<endl;
-    cout<<"8. Reporte de materiales en prestamo (general y por tipo de material)"<<endl;
-    cout<<"9. Reporte de prestamos por usuario"<<endl;
+    do {
+    cout << "------------------------Bienvenidos Al Menu Principal De La Biblioteca-------------------------" << endl;
+    cout << "1. Inclusion de datos de materiales (libros, revistas, articulos, videos, material digital) "<< endl;
+    cout << "2. Modificacion de datos de materiales. " << endl;
+    cout << "3. Inclusion de usuarios." << endl;
+    cout << "4. Modificacion de datos de usuarios"<<endl;
+    cout << "5. Registro de solicitudes de prestamo y devoluciones"<<endl;
+    cout << "6. Reporte de inventario de materiales"<<endl;
+    cout << "7. Reporte de usuarios"<<endl;
+    cout << "8. Reporte de materiales en prestamo (general y por tipo de material)"<<endl;
+    cout << "9. Reporte de prestamos por usuario"<<endl;
     cout << "0. Salir" << endl;
-    cout << "------------------------------------------------------------------------------------------------"<<endl;
-    cout<<"Escoga el numero de su Interes: ";
-    cin>>opcion;
-
+    cout << "------------------------------------------------------------------------------------------------" << endl;
+    cout << "Escoga el numero de su Interes: "; cin>> opcion;
     switch(opcion) {
     case 1:
         Menu::incluirMateriales();
@@ -94,7 +92,7 @@ do {
         cin.ignore();
         cin.get();
     }
-}while(opcion!=0);
+} while (opcion!=0);
 
 }
 

@@ -14,8 +14,6 @@
 #include "Video.h"
 #include "materialDigital.h"
 
-
-
 class Menu {
 public:
     void mostrarMenu();
