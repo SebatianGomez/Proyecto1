@@ -19,4 +19,6 @@ add_executable(Proyecto_1_Progra2 main.cpp
         Video.h
         materialDigital.cpp
         materialDigital.h
+        Excepciones.cpp
+        Excepciones.h
 )

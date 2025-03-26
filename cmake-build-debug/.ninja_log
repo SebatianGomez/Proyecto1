@@ -1,12 +1,10 @@
 # ninja log v6
 27	895	7646664536287475	CMakeFiles/Proyecto_1_Progra2.dir/Usuario.cpp.obj	bc791f5506bdbae9
-21	796	7647143991454651	CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj	2d556ae19f9152e7
+19	1005	7647149616898453	CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj	2d556ae19f9152e7
 21	796	7647142806663732	CMakeFiles/Proyecto_1_Progra2.dir/Revista.cpp.obj	67467291db430512
-813	956	7647143999370838	Proyecto_1_Progra2.exe	8cbf1412ef0a6cec
+1005	1166	7647149626763649	Proyecto_1_Progra2.exe	da379a6c7c3ef80f
 28	799	7647143991520613	CMakeFiles/Proyecto_1_Progra2.dir/Libro.cpp.obj	1c03d343604754c
 31	835	7647142806751504	CMakeFiles/Proyecto_1_Progra2.dir/Video.cpp.obj	a8fc58b757a6b42e
 21	724	7646671843665288	CMakeFiles/Proyecto_1_Progra2.dir/Material.cpp.obj	d6a4634416f6771c
 33	813	7647143991574458	CMakeFiles/Proyecto_1_Progra2.dir/Articulo.cpp.obj	34729b94e85a71b1
 24	982	7647149616952218	CMakeFiles/Proyecto_1_Progra2.dir/materialDigital.cpp.obj	24322d820e1e1acd
-19	1005	7647149616898453	CMakeFiles/Proyecto_1_Progra2.dir/main.cpp.obj	2d556ae19f9152e7
-1005	1166	7647149626763649	Proyecto_1_Progra2.exe	da379a6c7c3ef80f
