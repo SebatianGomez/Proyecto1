@@ -7,7 +7,7 @@
 void Menu::mostrarMenu() {
     int opcion;
     do {
-    cout << "------------------------Bienvenidos Al Menu Principal De La Biblioteca-------------------------" << endl;
+    cout << "------------------------ Bienvenidos Al Menu Principal De La Biblioteca-------------------------" << endl;
     cout << "1. Inclusion de datos de materiales (libros, revistas, articulos, videos, material digital) "<< endl;
     cout << "2. Modificacion de datos de materiales. " << endl;
     cout << "3. Inclusion de usuarios." << endl;
