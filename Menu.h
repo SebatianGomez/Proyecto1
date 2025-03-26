@@ -24,10 +24,12 @@ public:
     void modificarMateriales();
     void incluirUsuarios();
     void modificarUsuarios();
-    void RegistroPrestamosDevoluciones();
+    void RegistroPrestamos();
+    void RegistroDevoluciones();
     void ReporteInventarioMaterial();
     void ReporteUsuario();
-    void reporteMaterialPrestamos();
+    void reporteMaterialPrestamosGeneral();
+    void reporteMaterialPrestamosPorMaterial();
     void ReportePrestamosUsuarios();
 
     //void limpiarPantalla();

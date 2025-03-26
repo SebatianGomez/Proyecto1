@@ -36,7 +36,25 @@ do {
         Menu::modificarUsuarios();
         break;
     case 5:
-        Menu::RegistroPrestamosDevoluciones();
+        int opinion;
+        cout <<"\n\n---------------------Registrar solicitudes de Prestamos y Devoluciones----------------------------"<<endl;
+        cout << "1. Registrar Prestamo" << endl;
+        cout << "2. Registrar Devoluciones"<<endl;
+        cout<<"\n------------------------------------------------------------------------------------------------"<<endl;
+        cout<<"Digite su opcion:";cin>>opinion;
+
+        switch(opinion) {
+        case 1:
+            Menu::RegistroPrestamos();
+            break;
+        case 2:
+            Menu::RegistroDevoluciones();
+            break;
+        default:
+            cout << "Opcion invalida. Presione enter para volver a la Pestalla anterior" << endl;
+            cin.ignore();
+            cin.get();
+        }
         break;
     case 6:
         Menu::ReporteInventarioMaterial();
@@ -45,7 +63,25 @@ do {
         Menu::ReporteUsuario();
         break;
     case 8:
-        Menu::reporteMaterialPrestamos();
+        int seleccion;
+        cout <<"\n\n---------------------Reporte de materiales en prestamo (general y por tipo de material)----------------------------"<<endl;
+        cout << "1. Reporte General" << endl;
+        cout << "2. Reporte Por Tipo De Material"<<endl;
+        cout<<"\n------------------------------------------------------------------------------------------------"<<endl;
+        cout<<"Digite su opcion:";cin>>seleccion;
+
+        switch(seleccion) {
+        case 1:
+            Menu::RegistroPrestamos();
+            break;
+        case 2:
+            Menu::RegistroDevoluciones();
+            break;
+        default:
+            cout << "Opcion invalida. Presione enter para volver a la Pestalla anterior" << endl;
+            cin.ignore();
+            cin.get();
+        }
         break;
     case 9:
         ReportePrestamosUsuarios();
@@ -63,7 +99,7 @@ do {
 }
 
 void Menu::incluirMateriales() {
-    cout <<"\n\n------------------------------------------------------------------------------------------------"<<endl;
+    cout <<"\n\n------------------------------------I------------------------------------------------------------"<<endl;
     cout << "Incluir datos de materiales..." << endl;
     cout << "Aquí puedes registrar libros, revistas, artículos, videos, material digital, etc." << endl;
     cout << "\n Presione Enter para volver al menu..."<<endl;
@@ -103,10 +139,20 @@ void Menu::modificarUsuarios() {
     cin.get();
 }
 
-void Menu::RegistroPrestamosDevoluciones() {
+void Menu::RegistroPrestamos() {
     cout <<"\n\n------------------------------------------------------------------------------------------------"<<endl;
-    cout << "Registrar solicitudes de préstamo y devoluciones..." << endl;
-    cout << "Aquí puedes registrar los préstamos y devoluciones de materiales." << endl;
+    cout << "Registrar solicitudes de préstamos" << endl;
+    cout << "Aquí puedes registrar los préstamos" << endl;
+    cout << "\nPresione Enter para volver al menu...";
+    cout <<"\n------------------------------------------------------------------------------------------------";
+    cin.ignore();
+    cin.get();
+}
+
+void Menu::RegistroDevoluciones() {
+    cout <<"\n\n------------------------------------------------------------------------------------------------"<<endl;
+    cout << "Registrar solicitudes de devoluciones" << endl;
+    cout << "Aquí puedes registrar las devoluciones de materiales." << endl;
     cout << "\nPresione Enter para volver al menu...";
     cout <<"\n------------------------------------------------------------------------------------------------";
     cin.ignore();
@@ -133,15 +179,26 @@ void Menu::ReporteUsuario() {
     cin.get();
 }
 
-void Menu::reporteMaterialPrestamos() {
+void Menu::reporteMaterialPrestamosGeneral() {
     cout <<"\n\n------------------------------------------------------------------------------------------------"<<endl;
     cout << "Generar reporte de materiales en préstamo..." << endl;
-    cout << "Muestra los materiales actualmente prestados, tanto en general como por tipo." << endl;
+    cout << "Muestra los materiales actualmente prestados en general" << endl;
     cout << "\nPresione Enter para volver al menu...";
     cout <<"\n------------------------------------------------------------------------------------------------";
     cin.ignore();
     cin.get();
 }
+
+void Menu::reporteMaterialPrestamosPorMaterial() {
+    cout <<"\n\n------------------------------------------------------------------------------------------------"<<endl;
+    cout << "Generar reporte de materiales en préstamo..." << endl;
+    cout << "Muestra los materiales actualmente prestados  por tipo." << endl;
+    cout << "\nPresione Enter para volver al menu...";
+    cout <<"\n------------------------------------------------------------------------------------------------";
+    cin.ignore();
+    cin.get();
+}
+
 
 void Menu::ReportePrestamosUsuarios() {
     system("CLS");
