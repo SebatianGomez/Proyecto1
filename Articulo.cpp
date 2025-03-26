@@ -36,13 +36,13 @@ string Articulo::getTipoMaterial() const { return "Articulo"; }
 
 string Articulo::mostrar() const {
     stringstream s;
-    s << "--------- INFORMACION DEL ARTICULO ---------" << endl;
-    s << "Tipo de material: " << getTipoMaterial() << endl;
-    s << "Numero de clasificacion: " << Material::getNumeroClasificacion() << endl;
-    s << "Numero de catalogo: " << Material::getNumeroCatalogo() << endl;
-    s << "Titulo: " << Material::getTitulo() << endl;
-    s << "Autor: " << Material::getAutor() << endl;
-    s << "Palabras clave: " << Material::getPalabrasClave() << endl;
-    s << "Estado del material: " << Material::getEstadoMaterial() << endl;
+    s << "--------- INFORMACION DEL ARTICULO ---------" << endl
+      << "Tipo de material: " << getTipoMaterial() << endl
+      << "Numero de clasificacion: " << Material::getNumeroClasificacion() << endl
+      << "Numero de catalogo: " << Material::getNumeroCatalogo() << endl
+      << "Titulo: " << Material::getTitulo() << endl
+      << "Autor: " << Material::getAutor() << endl
+      << "Palabras clave: " << Material::getPalabrasClave() << endl
+      << "Estado del material: " << Material::getEstadoMaterial() << endl;
     return s.str();
 }

@@ -36,13 +36,13 @@ string Revista::getTipoMaterial() const { return "Revista"; }
 
 string Revista::mostrar() const {
     stringstream s;
-    s << "--------- INFORMACION DE LA REVISTA ---------" << endl;
-    s << "Tipo de material: " << getTipoMaterial() << endl;
-    s << "Numero de clasificacion: " << Material::getNumeroClasificacion() << endl;
-    s << "Numero de catalogo: " << Material::getNumeroCatalogo() << endl;
-    s << "Titulo: " << Material::getTitulo() << endl;
-    s << "Autor: " << Material::getAutor() << endl;
-    s << "Palabras clave: " << Material::getPalabrasClave() << endl;
-    s << "Estado del material: " << Material::getEstadoMaterial() << endl;
+    s << "--------- INFORMACION DE LA REVISTA ---------" << endl
+      << "Tipo de material: " << getTipoMaterial() << endl
+      << "Numero de clasificacion: " << Material::getNumeroClasificacion() << endl
+      << "Numero de catalogo: " << Material::getNumeroCatalogo() << endl
+      << "Titulo: " << Material::getTitulo() << endl
+      << "Autor: " << Material::getAutor() << endl
+      << "Palabras clave: " << Material::getPalabrasClave() << endl
+      << "Estado del material: " << Material::getEstadoMaterial() << endl;
     return s.str();
 }

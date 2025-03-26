@@ -15,4 +15,8 @@ add_executable(Proyecto_1_Progra2 main.cpp
         Revista.h
         Articulo.cpp
         Articulo.h
+        Video.cpp
+        Video.h
+        materialDigital.cpp
+        materialDigital.h
 )
