@@ -7,4 +7,6 @@ add_executable(Proyecto_1_Progra2 main.cpp
         Usuario.cpp
         Usuario.h
         Utilities.h
+        Material.cpp
+        Material.h
 )

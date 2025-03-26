@@ -3,7 +3,6 @@
 //
 
 #include "Lista.h"
-#include "Nodo.cpp"
 
 template<class T>
 Lista<T>::Lista() {
@@ -66,9 +65,3 @@ string Lista<T>::mostrar() {
     }
     return ss.str();
 }
-
-
-
-
-
-
