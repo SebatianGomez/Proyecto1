@@ -21,4 +21,6 @@ add_executable(Proyecto_1_Progra2 main.cpp
         materialDigital.h
         Excepciones.cpp
         Excepciones.h
+        Menu.cpp
+        Menu.h
 )
