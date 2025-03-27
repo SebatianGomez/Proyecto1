@@ -14,23 +14,25 @@ private:
     T* dato;
     Nodo* siguiente;
 public:
-    Nodo() {
-        dato = nullptr;
-        siguiente = nullptr;
-    }
+    Nodo() : dato(nullptr), siguiente(nullptr) {}
+
     ~Nodo() {
         delete dato;
         delete siguiente;
     }
-    T* getDato() {
+
+    T* getDato() const {
         return dato;
     }
+
     void setDato(T* dato) {
         this->dato = dato;
     }
-    Nodo<T>* getSiguiente() {
+
+    Nodo<T>* getSiguiente() const {
         return siguiente;
     }
+
     void setSiguiente(Nodo<T>* siguiente) {
         this->siguiente = siguiente;
     }

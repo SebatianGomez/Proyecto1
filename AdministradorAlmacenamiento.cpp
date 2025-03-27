@@ -20,7 +20,7 @@ void AdministradorAlmacenamiento::cargarCatalogo(Biblioteca& biblioteca) {
     archivo.close();
 }
 
-void AdministradorAlmacenamiento::guardarCatalogo(Lista<Material*>& catalogo) {
+void AdministradorAlmacenamiento::guardarCatalogo(const Lista<Material*>& catalogo) {
     ofstream archivo("catalogo.txt");
     if (!archivo.is_open()) {
         cout << "No se pudo abrir el archivo catalogo.txt para escribir" << endl;
@@ -28,7 +28,7 @@ void AdministradorAlmacenamiento::guardarCatalogo(Lista<Material*>& catalogo) {
     }
     Nodo<Material*>* aux = catalogo.primero1();
     while (aux != nullptr) {
-        Material* mat = aux->getDato();
+        Material* mat = *aux->getDato();
         if (mat->getTipoMaterial() == "Libro") {
             Libro* libro = dynamic_cast<Libro*>(mat);
             archivo << libro;
@@ -76,7 +76,7 @@ void AdministradorAlmacenamiento::cargarUsuarios(Biblioteca &biblioteca) {
     archivo.close();
 }
 
-void AdministradorAlmacenamiento::guardarUsuarios(Lista<Usuario*>& usuarios) {
+void AdministradorAlmacenamiento::guardarUsuarios(const Lista<Usuario*>& usuarios) {
     ofstream archivo("usuarios.txt");
     if (!archivo.is_open()) {
         cout << "No se pudo abrir el archivo usuarios.txt para escribir" << endl;
@@ -84,7 +84,7 @@ void AdministradorAlmacenamiento::guardarUsuarios(Lista<Usuario*>& usuarios) {
     }
     Nodo<Usuario*>* aux = usuarios.primero1();
     while (aux != nullptr) {
-        Usuario* usuario = aux->getDato();
+        Usuario* usuario = *aux->getDato();
         archivo << usuario;
         aux = aux->getSiguiente();
     }

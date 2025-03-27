@@ -13,8 +13,8 @@
 
 class Biblioteca {
 private:
-    Lista<Usuario*> usuarios;
-    Lista<Material*> catalogo;
+    Lista<Usuario*>* usuarios;
+    Lista<Material*>* catalogo;
 public:
     Biblioteca();
     ~Biblioteca();

@@ -5,8 +5,8 @@
 #include "Biblioteca.h"
 
 Biblioteca::Biblioteca() {
-    catalogo = *(new Lista<Material*>());
-    usuarios = *(new Lista<Usuario*>());
+    catalogo = new Lista<Material*>();
+    usuarios = new Lista<Usuario*>();
 }
 
 Biblioteca::~Biblioteca() {
@@ -15,33 +15,33 @@ Biblioteca::~Biblioteca() {
 }
 
 Lista<Material*> &Biblioteca::obtenerCatalogo() {
-    return catalogo;
+    return *catalogo;
 }
 
 Lista<Usuario*> &Biblioteca::obtenerUsuarios() {
-    return usuarios;
+    return *usuarios;
 }
 
 void Biblioteca::agregarMaterial(Material* mat) {
-    catalogo.insertarFinal(&mat);
+    catalogo->insertarFinal(&mat);
 }
 
 void Biblioteca::agregarUsuario(Usuario* usu) {
-    usuarios.insertarFinal(&usu);
+    usuarios->insertarFinal(&usu);
 }
 
 void Biblioteca::cargarCatalogo() {
-    AdministradorAlmacenamiento::cargarCatalogo(this);
+    AdministradorAlmacenamiento::cargarCatalogo(*this);
 }
 
 void Biblioteca::cargarUsuarios() {
-    AdministradorAlmacenamiento::cargarUsuarios(this);
+    AdministradorAlmacenamiento::cargarUsuarios(*this);
 }
 
 void Biblioteca::guardarCatalogo() {
-    AdministradorAlmacenamiento::guardarCatalogo(catalogo);
+    AdministradorAlmacenamiento::guardarCatalogo(*catalogo);
 }
 
 void Biblioteca::guardarUsuarios() {
-    AdministradorAlmacenamiento::guardarUsuarios(usuarios);
+    AdministradorAlmacenamiento::guardarUsuarios(*usuarios);
 }

@@ -19,8 +19,8 @@ class AdministradorAlmacenamiento {
 public:
     static void cargarCatalogo(Biblioteca& biblioteca);
     static void cargarUsuarios(Biblioteca& biblioteca);
-    static void guardarCatalogo(Lista<Material*>& catalogo);
-    static void guardarUsuarios(Lista<Usuario*>& usuarios);
+    static void guardarCatalogo(const Lista<Material*>& catalogo);
+    static void guardarUsuarios(const Lista<Usuario*>& usuarios);
 private:
     static Material* pasarLinea(const string& linea);
 };
