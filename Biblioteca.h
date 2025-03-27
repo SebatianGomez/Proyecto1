@@ -9,6 +9,7 @@
 #include "Utilities.h"
 #include "Material.h"
 #include "Lista.h"
+#include "AdministradorAlmacenamiento.h"
 
 class Biblioteca {
 private:

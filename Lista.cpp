@@ -42,7 +42,7 @@ void Lista<T>::insertarInicio(T *dato) {
 }
 
 template<class T>
-void Lista<T>::insertarFinal(T *dato) {
+void Lista<T>::insertarFinal(T* dato) {
     Nodo<T>* nuevo = new Nodo<T>;
     nuevo->setDato(dato);
     if (primero == nullptr) {

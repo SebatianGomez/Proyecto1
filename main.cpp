@@ -11,8 +11,8 @@
 
 int main() {
     Usuario* usuario = new Usuario("119560085", "Sebastian", "Gomez", "Gomez", true);
-    Lista<Usuario> lista;
-    lista.insertarFinal(usuario);
+    Lista<Usuario>* lista;
+    lista->insertarFinal(usuario);
     cout << lista << endl;
     Material* m5 = new materialDigital("123", "456", "Material digital de la UNAM", "UNAM", "material digital, UNAM, ciencia", "Bueno");
     Material* m4 = new Video("123", "456", "Video de la UNAM", "UNAM", "video, UNAM, ciencia", "Bueno");
