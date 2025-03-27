@@ -9,6 +9,11 @@
 #include "Material.h"
 #include "Usuario.h"
 #include "Utilities.h"
+#include "Articulo.h"
+#include "Revista.h"
+#include "Libro.h"
+#include "Video.h"
+#include "materialDigital.h"
 
 class AdministradorAlmacenamiento {
 public:

@@ -22,7 +22,7 @@ public:
         delete dato;
         delete siguiente;
     }
-    T* getDato() {
+    T getDato() {
         return dato;
     }
     void setDato(T* dato) {

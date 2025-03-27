@@ -35,11 +35,11 @@ void Menu::mostrarMenu() {
         break;
     case 5:
         int opinion;
-        cout <<"\n\n---------------------Registrar solicitudes de Prestamos y Devoluciones----------------------------"<<endl;
-        cout << "1. Registrar Prestamo" << endl;
-        cout << "2. Registrar Devoluciones"<<endl;
-        cout<<"\n------------------------------------------------------------------------------------------------"<<endl;
-        cout<<"Digite su opcion:"; cin >> opinion;
+        cout << "\n\n---------------------Registrar solicitudes de Prestamos y Devoluciones----------------------------" << endl;
+        cout << "1. Registrar Prestamo " << endl;
+        cout << "2. Registrar Devolucion "<<endl;
+        cout << "\n------------------------------------------------------------------------------------------------"<<endl;
+        cout << "Digite su opcion: "; cin >> opinion;
 
         switch(opinion) {
         case 1:

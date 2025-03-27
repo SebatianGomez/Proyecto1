@@ -11,6 +11,20 @@
 #include "Lista.h"
 
 class Biblioteca {
+private:
+    Lista<Usuario*> usuarios;
+    Lista<Material*> catalogo;
+public:
+    Biblioteca();
+    ~Biblioteca();
+    Lista<Material*> &obtenerCatalogo();
+    Lista<Usuario*> &obtenerUsuarios();
+    void agregarMaterial(Material* mat);
+    void agregarUsuario(Usuario* usu);
+    void cargarCatalogo();
+    void cargarUsuarios();
+    void guardarCatalogo();
+    void guardarUsuarios();
 
 };
 
