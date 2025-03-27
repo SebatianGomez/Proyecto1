@@ -23,4 +23,8 @@ add_executable(Proyecto_1_Progra2 main.cpp
         Excepciones.h
         Menu.cpp
         Menu.h
+        Biblioteca.cpp
+        Biblioteca.h
+        AdministradorAlmacenamiento.cpp
+        AdministradorAlmacenamiento.h
 )

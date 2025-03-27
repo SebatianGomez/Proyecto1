@@ -9,6 +9,11 @@
 #include <sstream>
 using namespace std;
 #include <fstream>
+#include "Articulo.h"
+#include "Revista.h"
+#include "Libro.h"
+#include "Video.h"
+#include "materialDigital.h"
 
 class Utilities {
 
