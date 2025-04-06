@@ -4,64 +4,66 @@
 
 #include "AdministradorAlmacenamiento.h"
 
-void AdministradorAlmacenamiento::cargarCatalogo(Biblioteca& biblioteca) {
-    ifstream archivo("catalogo.txt");
+Lista<Material>* AdministradorAlmacenamiento::cargarCatalogo() {
+    salidaCatalogo.open("catalogo.txt");
+    Lista<Material>* catalogo = new Lista<Material>();
     string linea;
-    if (!archivo.is_open()) {
+    if (!salidaCatalogo.is_open()) {
         cout << "No se pudo abrir el archivo catalogo.txt" << endl;
-        return;
     }
-    while (getline(archivo, linea)) {
+    while (getline(salidaCatalogo, linea)) {
         Material* material = pasarLinea(linea);
         if (material) {
-            biblioteca.agregarMaterial(material);
+            catalogo->insertarFinal(material);
         }
     }
-    archivo.close();
+    salidaCatalogo.close();
+    return catalogo;
 }
 
-void AdministradorAlmacenamiento::guardarCatalogo(const Lista<Material*>& catalogo) {
-    ofstream archivo("catalogo.txt");
-    if (!archivo.is_open()) {
+void AdministradorAlmacenamiento::guardarCatalogo(const Lista<Material>* catalogo) {
+    entradaCatalogo.open("catalogo.txt", ios::app);
+    if (!entradaCatalogo.is_open()) {
         cout << "No se pudo abrir el archivo catalogo.txt para escribir" << endl;
         return;
     }
-    Nodo<Material*>* aux = catalogo.primero1();
+    Nodo<Material>* aux = catalogo->primero1();
     while (aux != nullptr) {
-        Material* mat = *aux->getDato();
+        Material* mat = aux->getDato();
         if (mat->getTipoMaterial() == "Libro") {
             Libro* libro = dynamic_cast<Libro*>(mat);
-            archivo << libro;
+            entradaCatalogo << libro;
         }
         else if (mat->getTipoMaterial() == "Revista") {
             Revista* revista = dynamic_cast<Revista*>(mat);
-            archivo << revista;
+            entradaCatalogo << revista;
         }
         else if (mat->getTipoMaterial() == "Articulo") {
             Articulo* articulo = dynamic_cast<Articulo*>(mat);
-            archivo << articulo;
+            entradaCatalogo << articulo;
         }
         else if (mat->getTipoMaterial() == "Video") {
             Video* video = dynamic_cast<Video*>(mat);
-            archivo << video;
+            entradaCatalogo << video;
         }
         else if (mat->getTipoMaterial() == "materialDigital") {
             materialDigital* materialDig = dynamic_cast<materialDigital*>(mat);
-            archivo << materialDig;
+            entradaCatalogo << materialDig;
         }
         aux = aux->getSiguiente();
     }
-    archivo.close();
+    entradaCatalogo.close();
 }
 
-void AdministradorAlmacenamiento::cargarUsuarios(Biblioteca &biblioteca) {
-    ifstream archivo("usuarios.txt");
+Lista<Usuario>* AdministradorAlmacenamiento::cargarUsuarios() {
+    salidaUsuarios.open("usuarios.txt");
+    Lista<Usuario>* usuarios = new Lista<Usuario>();
     string linea, id, nombre, apellido1, apellido2;
     bool estado;
-    if (!archivo.is_open()) {
+    if (!salidaUsuarios.is_open()) {
         cout << "No se pudo abrir el archivo usuarios.txt" << endl;
     }
-    while (getline(archivo, linea)) {
+    while (getline(salidaUsuarios, linea)) {
         stringstream ss(linea);
         getline(ss, id, ';');
         getline(ss, nombre, ';');
@@ -70,25 +72,26 @@ void AdministradorAlmacenamiento::cargarUsuarios(Biblioteca &biblioteca) {
         ss >> estado;
         Usuario* usuario = new Usuario(id, nombre, apellido1, apellido2, estado);
         if (usuario) {
-            biblioteca.agregarUsuario(usuario);
+            usuarios->insertarFinal(usuario);
         }
     }
-    archivo.close();
+    salidaUsuarios.close();
+    return usuarios;
 }
 
-void AdministradorAlmacenamiento::guardarUsuarios(const Lista<Usuario*>& usuarios) {
-    ofstream archivo("usuarios.txt");
-    if (!archivo.is_open()) {
+void AdministradorAlmacenamiento::guardarUsuarios(const Lista<Usuario>* usuarios) {
+    entradaUsuarios.open("usuarios.txt", ios::app);
+    if (!entradaUsuarios.is_open()) {
         cout << "No se pudo abrir el archivo usuarios.txt para escribir" << endl;
         return;
     }
-    Nodo<Usuario*>* aux = usuarios.primero1();
+    Nodo<Usuario>* aux = usuarios->primero1();
     while (aux != nullptr) {
-        Usuario* usuario = *aux->getDato();
-        archivo << usuario;
+        Usuario* usuario = aux->getDato();
+        entradaUsuarios << usuario;
         aux = aux->getSiguiente();
     }
-    archivo.close();
+    entradaUsuarios.close();
 }
 
 Material* AdministradorAlmacenamiento::pasarLinea(const string& linea) {

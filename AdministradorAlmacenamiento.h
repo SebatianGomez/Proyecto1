@@ -14,15 +14,20 @@
 #include "Libro.h"
 #include "Video.h"
 #include "materialDigital.h"
+#include "Lista.h"
 
 class AdministradorAlmacenamiento {
-public:
-    static void cargarCatalogo(Biblioteca& biblioteca);
-    static void cargarUsuarios(Biblioteca& biblioteca);
-    static void guardarCatalogo(const Lista<Material*>& catalogo);
-    static void guardarUsuarios(const Lista<Usuario*>& usuarios);
 private:
-    static Material* pasarLinea(const string& linea);
+    ifstream salidaUsuarios;
+    ifstream salidaCatalogo;
+    ofstream entradaCatalogo;
+    ofstream entradaUsuarios;
+public:
+    Lista<Material>* cargarCatalogo();
+    Lista<Usuario>* cargarUsuarios();
+    void guardarCatalogo(const Lista<Material>* catalogo);
+    void guardarUsuarios(const Lista<Usuario>* usuarios);
+    Material* pasarLinea(const string& linea);
 };
 
 

@@ -38,3 +38,9 @@ string Usuario::toString() {
     s << "Estado: " << estado << endl;
     return s.str();
 }
+
+string Usuario::mostrarEspecifico() {
+    stringstream s;
+    s << getId() << ";" << getNombre() << ";" << getApellido1() << ";" << getApellido2() << ";" << getEstado() << endl;
+    return s.str();
+}

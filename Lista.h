@@ -20,7 +20,7 @@ public:
     void insertarFinal(T* dato);
     string mostrar();
     friend std::ostream & operator<<(std::ostream &os, const Lista &obj) {
-        Nodo<T> *aux = obj.primero;
+        Nodo<T>* aux = obj.primero;
         if (aux->getSiguiente() == nullptr) {
             os << "Lista vacia!" << endl;
         } else {
@@ -42,8 +42,8 @@ Lista<T>::Lista() {
 
 template<class T>
 Lista<T>::~Lista() {
-    Nodo<T> *temp;
-    Nodo<T> *anterior;
+    Nodo<T>* temp;
+    Nodo<T>* anterior;
     if (primero->getSiguiente() == nullptr) {
         delete primero;
     } else {
@@ -93,8 +93,8 @@ string Lista<T>::mostrar() {
     stringstream ss;
     Nodo<T>* actual = primero;
     while (actual != nullptr) {
-        ss << actual->getDato()->toString() << endl;
-        actual = actual->siguiente;
+        ss << actual->getDato() << endl;
+        actual = actual->getSiguiente();
     }
     return ss.str();
 }

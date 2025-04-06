@@ -5,6 +5,8 @@
 #ifndef USUARIO_H
 #define USUARIO_H
 
+#include <ostream>
+
 #include "Utilities.h"
 
 class Usuario {
@@ -28,14 +30,15 @@ public:
     bool getEstado() const;
     void setEstado(bool estado);
     string toString();
+    string mostrarEspecifico();
+
     friend std::ostream & operator<<(std::ostream &os, const Usuario &obj) {
         return os
-               << "\tInformacion usuario: \n"
-               << "Id: " << obj.getId() << endl
-               << "Nombre: " << obj.getNombre() << endl
-               << "Apellido 1: " << obj.getApellido1() << endl
-               << "Apellido 2: " << obj.getApellido2() << endl
-               << "Estado: " << obj.getEstado() << endl;
+               << "id: " << obj.getId()
+               << " nombre: " << obj.getNombre()
+               << " apellido1: " << obj.getApellido1()
+               << " apellido2: " << obj.getApellido2()
+               << " estado: " << obj.getEstado() << endl;
     }
 };
 

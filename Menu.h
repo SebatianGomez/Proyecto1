@@ -6,7 +6,7 @@
 #define MENU_H
 #include "Utilities.h"
 #include "Usuario.h"
-#include "Lista.cpp"
+#include "Lista.h"
 #include "Material.h"
 #include "Libro.h"
 #include "Revista.h"
